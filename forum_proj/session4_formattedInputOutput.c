@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    int jumlahMahasiswa = 100;
+    const int jumlahMahasiswa = 100;
     char nama[100];
     int hasil;
     char listNama[jumlahMahasiswa][100]; //[jumlah mahasiswa][panjang string]
