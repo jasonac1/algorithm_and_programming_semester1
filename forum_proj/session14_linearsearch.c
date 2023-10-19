@@ -5,9 +5,9 @@
 int linsearch(int* intArr, int size, int key) {
     int i;
     for(i = 0; i < size; i++) {
-        if(key == intArr[i]) return 1;
+        if(key == intArr[i]) return i;
     }
-    return 0;
+    return -1;
 }
 
 
@@ -34,10 +34,11 @@ int main() {
         else printf("%d ", randInts[j]);
     }
 
-    if(linsearch(randInts, 10, key)) {
-        printf("Key %d ditemukan dalam list.", key);
+    int index = linsearch(randInts, 10, key); // mengembalikan index instansi pertama key
+    if(index != -1) {
+        printf("Instansi pertama key %d ditemukan dalam list pada urutan ke-%d.", key, index+1);
     } else { 
-        printf("Key %d tidak ditemukan dalam list.", key);
+        printf("Instansi key %d tidak ditemukan dalam list.", key);
     }
     
     int c;
