@@ -1,0 +1,6 @@
+ID Transaksi: 2
+Kode Buku: 2
+Nama Buku: Nineteen Eighty-Four
+Tanggal Transaksi: 2023-10-20
+Jumlah Pembayaran: 150000
+

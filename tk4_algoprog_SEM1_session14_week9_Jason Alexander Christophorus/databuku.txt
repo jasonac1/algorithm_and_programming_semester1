@@ -1,0 +1,12 @@
+Kode Buku: 1
+Nama Buku: Tes
+Jenis Buku: Fiksi
+Harga: 10000
+Stok: 100
+
+Kode Buku: 2
+Nama Buku: ne book
+Jenis Buku: fiksi
+Harga: 100000
+Stok: 100
+
